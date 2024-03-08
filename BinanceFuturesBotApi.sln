@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceFuturesBotApi", "BinanceFuturesBotApi\BinanceFuturesBotApi.csproj", "{6BA56AFA-CF3F-46A3-85D2-F1D74BEBABDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{F19C60AD-C5EC-42B7-910F-9C1CE4280E1B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{402C7551-D8ED-4E10-A47E-596BF3DF6673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceFuturesBotApi.Infrastructure.Binance", "BinanceFuturesBotApi.Infrastructure.Binance\BinanceFuturesBotApi.Infrastructure.Binance.csproj", "{B2087347-AEC6-49E8-8F59-AB81A38BB25D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationCore", "ApplicationCore", "{9B386AA5-322D-4CE6-B368-AA4050340AE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApplicationServices", "ApplicationServices", "{B19C8E54-FF94-44A3-B082-40CEAD662558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainServices", "DomainServices", "{D9E959E4-11B2-41F6-A30E-7587D60324BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DomainModels", "DomainModels", "{450EF2A8-4E56-4988-B3EC-9496845E0CF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceFuturesBotApi.ApplicationCore.DomainModels", "BinanceFuturesBotApi.ApplicationCore.DomainModels\BinanceFuturesBotApi.ApplicationCore.DomainModels.csproj", "{04C298E1-CBB6-4173-B647-1B052230A1FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceFuturesBotApi.ApplicationCore.ApplicationServices.Interfaces", "BinanceFuturesBotApi.ApplicationCore.ApplicationServices.Interfaces\BinanceFuturesBotApi.ApplicationCore.ApplicationServices.Interfaces.csproj", "{1D5DBDC4-07B3-4960-85F9-81B683B40917}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinanceFuturesBotApi.ApplicationCore.ApplicationServices.Implementations", "BinanceFuturesBotApi.ApplicationCore.ApplicationServices.Implementations\BinanceFuturesBotApi.ApplicationCore.ApplicationServices.Implementations.csproj", "{D4E0EDB0-4B72-41B5-BB21-BF34B3887759}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BA56AFA-CF3F-46A3-85D2-F1D74BEBABDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA56AFA-CF3F-46A3-85D2-F1D74BEBABDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA56AFA-CF3F-46A3-85D2-F1D74BEBABDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA56AFA-CF3F-46A3-85D2-F1D74BEBABDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2087347-AEC6-49E8-8F59-AB81A38BB25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2087347-AEC6-49E8-8F59-AB81A38BB25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2087347-AEC6-49E8-8F59-AB81A38BB25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2087347-AEC6-49E8-8F59-AB81A38BB25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C298E1-CBB6-4173-B647-1B052230A1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C298E1-CBB6-4173-B647-1B052230A1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C298E1-CBB6-4173-B647-1B052230A1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C298E1-CBB6-4173-B647-1B052230A1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D5DBDC4-07B3-4960-85F9-81B683B40917}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D5DBDC4-07B3-4960-85F9-81B683B40917}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D5DBDC4-07B3-4960-85F9-81B683B40917}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D5DBDC4-07B3-4960-85F9-81B683B40917}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4E0EDB0-4B72-41B5-BB21-BF34B3887759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4E0EDB0-4B72-41B5-BB21-BF34B3887759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4E0EDB0-4B72-41B5-BB21-BF34B3887759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4E0EDB0-4B72-41B5-BB21-BF34B3887759}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2087347-AEC6-49E8-8F59-AB81A38BB25D} = {402C7551-D8ED-4E10-A47E-596BF3DF6673}
+		{B19C8E54-FF94-44A3-B082-40CEAD662558} = {9B386AA5-322D-4CE6-B368-AA4050340AE4}
+		{D9E959E4-11B2-41F6-A30E-7587D60324BE} = {9B386AA5-322D-4CE6-B368-AA4050340AE4}
+		{450EF2A8-4E56-4988-B3EC-9496845E0CF8} = {9B386AA5-322D-4CE6-B368-AA4050340AE4}
+		{04C298E1-CBB6-4173-B647-1B052230A1FD} = {450EF2A8-4E56-4988-B3EC-9496845E0CF8}
+		{1D5DBDC4-07B3-4960-85F9-81B683B40917} = {B19C8E54-FF94-44A3-B082-40CEAD662558}
+		{D4E0EDB0-4B72-41B5-BB21-BF34B3887759} = {B19C8E54-FF94-44A3-B082-40CEAD662558}
+	EndGlobalSection
+EndGlobal
